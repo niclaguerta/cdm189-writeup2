@@ -5,7 +5,7 @@
     let numDataPoints;
 
     async function getData(){
-        const myMoods = await fetch('data/activity.json');
+        const myMoods = await fetch('data/usage.json');
         const data = await myMoods.json();
         const dataPoints = Object.keys(data);
         globalData = Object.values(data);

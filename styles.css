@@ -16,10 +16,10 @@ img {
 h1 {
     color: #000;
     font-weight: 800;
-    font-size: 3.5em;
+    font-size: 3em;
     padding: 20px 20px 0px 20px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
     font-weight: 600;
     padding: 0 20px 0 20px;
     font-size: 2.5em;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 h3 {
@@ -38,7 +38,7 @@ h3 {
     font-family: "Crimson Text", serif;
     font-weight: 600;
     font-size: 2em;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
 }
 
 #left p {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 #timeline {
@@ -59,7 +59,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 350px;
+    margin-top: 250px;
 }
 
 .hours {

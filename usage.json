@@ -1,92 +1,146 @@
 {
-    "point1" : {
-        "time" : "7am",
-        "mood" : 1,
-        "activity" : "eat breakfast"
+    "point1": {
+        "time": "12am",
+        "usage": "0.46",
+        "cost": "$0.11",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point2" : {
-        "time" : "8am",
-        "mood" : 2,
-        "activity" : "sleep in bedroom"
+    "point2": {
+        "time": "1am",
+        "usage": "0.32",
+        "cost": "$0.07",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point3" : {
-        "time" : "9am",
-        "mood" : 2,
-        "activity" : "morning meds + treat"
+    "point3": {
+        "time": "2am",
+        "usage": "0.41",
+        "cost": "$0.10",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point4" : {
-        "time" : "10am",
-        "mood" : 2,
-        "activity" : "look out the backdoor"
+    "point4": {
+        "time": "3am",
+        "usage": "0.39",
+        "cost": "$0.09",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point5" : {
-        "time" : "11am",
-        "mood" : 2,
-        "activity" : "sleep by the backdoor"
+    "point5": {
+        "time": "4am",
+        "usage": "0.31",
+        "cost": "$0.07",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point6" : {
-        "time" : "12pm",
-        "mood" : 2,
-        "activity" : "sleep by the backdoor"
+    "point6": {
+        "time": "5am",
+        "usage": "0.4",
+        "cost": "$0.09",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point7" : {
-        "time" : "1pm",
-        "mood" : 1,
-        "activity" : "zoomies"
+    "point7": {
+        "time": "6am",
+        "usage": "0.4",
+        "cost": "$0.09",
+        "notes": "sleeping: ceiling fan on, phone charging"
     },
-    "point8" : {
-        "time" : "2pm",
-        "mood" : 2,
-        "activity" : "look out the front window"
+    "point8": {
+        "time": "7am",
+        "usage": "0.42",
+        "cost": "$0.10",
+        "notes": "make breakfast: using stove, toaster, and nutribullet"
     },
-    "point9" : {
-        "time" : "3pm",
-        "mood" : 2,
-        "activity" : "sleep on the couch"
+    "point9": {
+        "time": "8am",
+        "usage": "0.82",
+        "cost": "$0.19",
+        "notes": "getting ready for school: tv on for music/twitch stream, hairdryer"
     },
-    "point10" : {
-        "time" : "4pm",
-        "mood" : 2,
-        "activity" : "sleep on the couch"
+    "point10": {
+        "time": "9am",
+        "usage": "0.9",
+        "cost": "$0.21",
+        "notes": "at school: partner uses computer"
     },
-    "point11" : {
-        "time" : "5pm",
-        "mood" : 3,
-        "activity" : "cry for food"
+    "point11": {
+        "time": "10am",
+        "usage": "0.81",
+        "cost": "$0.19",
+        "notes": "at school: partner leaves for work, leaves computer on for his side hustle"
     },
-    "point12" : {
-        "time" : "6pm",
-        "mood" : 3,
-        "activity" : "cry for food"
+    "point12": {
+        "time": "11am",
+        "usage": "0.79",
+        "cost": "$0.18",
+        "notes": "at school: computer stays on"
     },
-    "point13" : {
-        "time" : "7pm",
-        "mood" : 1,
-        "activity" : "eat dinner"
+    "point13": {
+        "time": "12pm",
+        "usage": "0.86",
+        "cost": "$0.20",
+        "notes": "at school: computer stays on"
     },
-    "point14" : {
-        "time" : "8pm",
-        "mood" : 2,
-        "activity" : "bath time"
+    "point14": {
+        "time": "1pm",
+        "usage": "0.86",
+        "cost": "$0.20",
+        "notes": "at school: computer stays on"
     },
-    "point15" : {
-        "time" : "9pm",
-        "mood" : 2,
-        "activity" : "evening meds + treat"
+    "point15": {
+        "time": "2pm",
+        "usage": "1.21",
+        "cost": "$0.28",
+        "notes": "at school: partner comes home for lunch, uses microwave"
     },
-    "point16" : {
-        "time" : "10pm",
-        "mood" : 2,
-        "activity" : "sleep in the office"
+    "point16": {
+        "time": "3pm",
+        "usage": "0.8",
+        "cost": "$0.19",
+        "notes": "at school: computer stays on"
     },
-    "point17" : {
-        "time" : "11pm",
-        "mood" : 2,
-        "activity" : "sleep in the office"
+    "point17": {
+        "time": "4pm",
+        "usage": "0.86",
+        "cost": "$0.22",
+        "notes": "back at home: nap, homework using laptop (wireless) partner's computer is still on"
     },
-    "point18" : {
-        "time" : "12am",
-        "mood" : 2,
-        "activity" : "sleep in the bedroom"
+    "point18": {
+        "time": "5pm",
+        "usage": "0.82",
+        "cost": "$0.21",
+        "notes": "at home: homework using laptop (wireless), partner's computer is still on"
+    },
+    "point19": {
+        "time": "6pm",
+        "usage": "0.79",
+        "cost": "$0.20",
+        "notes": "at home: homework using laptop(wireless), partner's computer is still on"
+    },
+    "point20": {
+        "time": "7pm",
+        "usage": "1.2",
+        "cost": "$0.30",
+        "notes": "at home: walking on treadmill, partner comes home and uses computer, use microwave for leftovers"
+    },
+    "point21": {
+        "time": "8pm",
+        "usage": "0.99",
+        "cost": "$0.25",
+        "notes": "at home: lights are on, tv on for twitch stream, partner using computer"
+    },
+    "point22": {
+        "time": "9pm",
+        "usage": "1.04",
+        "cost": "$0.24",
+        "notes": "at home: lights are on, tv on for twitch stream, partner using computer"
+    },
+    "point23": {
+        "time": "10pm",
+        "usage": "1.09",
+        "cost": "$0.25",
+        "notes": "getting ready for bed: lights are on, tv on for music, partner using computer"
+    },
+    "point24": {
+        "time": "11pm",
+        "usage": "0.98",
+        "cost": "$0.23",
+        "notes": "asleep: some lights are off, partner still using computer, phone charging"
     }
 }

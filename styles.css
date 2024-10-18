@@ -4,15 +4,9 @@
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    margin: auto;
-}
-
 body {
-    background: url(images/background.jpeg);
+    background: url(images/background.png);
+    background-size: cover;
 }
 
 img {
@@ -20,35 +14,42 @@ img {
 }
 
 h1 {
-    color: #a82929;
-    font-family: "WindSong", cursive;
+    color: #000;
     font-weight: 800;
-    font-size: 2.6em;
+    font-size: 3em;
     padding: 20px 20px 0px 20px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 h2 {
-    color: #a82929;
+    color: #000;
     font-family: "Crimson Text", serif;
     font-weight: 600;
     padding: 0 20px 0 20px;
-    font-size: 1.7em;
+    font-size: 2em;
+    margin-left: 50px;
 }
 
 h3 {
-    color: #69443c;
+    color: #000;
     text-align: left;
     padding: 20px;
     font-family: "Crimson Text", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.5em;
+    margin-left: 50px;
 }
 
 p {
-    color: #69443c;
+    color: #000;
     font-size: 1.3em;
     text-align: left;
     padding: 0 20px 10px 20px;
+}
+
+#left p {
+    margin-left: 50px;
 }
 
 #timeline {
@@ -57,19 +58,11 @@ p {
     font-size: 1.7em;
     display: flex;
     justify-content: space-between;
+    margin-top: 350px;
 }
 
 hr {
     height:4px;
     border-width:0;
-    background-color:#a82929;
-  }
-
-  @media only screen and (min-width: 600px) {
-    #top {
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-        margin-top: 50px;
-    }
+    background-color:#000;
   }

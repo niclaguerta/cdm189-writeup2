@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
-
 </head>
 
 <body>
@@ -16,22 +15,49 @@
         <div id="left">
             <h1>Watts in a Day: Tracking my Usage</h1>
             <h2>Wednesday, October 15th</h2>
-            <h3>—drag your mouse across the bar on the screen—</h3>
+            <h3>—drag and hover your mouse across the hours—</h3>
 
             <p>Time: <span id="time"></span></p>
             <p>Usage (kWh): <span id="usage"></span></p>
             <p>Cost: <span id="cost"></span></p>
             <p>Activity: <span id="notes"></span></p>
         </div>
-
     </div>
 
     <div id="timeline">
-        <p>start of day</p>
-        <p>end of day</p>
-    </div>
+        <div class="hour-labels">
+            <p>start of day</p>
+            <p>end of day</p>
+        </div>
 
-    <hr>
+        <div class="hours">
+            <!-- 24 sections representing each hour -->
+            <div class="hour" data-hour="12am">12am</div>
+            <div class="hour" data-hour="1am">1am</div>
+            <div class="hour" data-hour="2am">2am</div>
+            <div class="hour" data-hour="3am">3am</div>
+            <div class="hour" data-hour="4am">4am</div>
+            <div class="hour" data-hour="5am">5am</div>
+            <div class="hour" data-hour="6am">6am</div>
+            <div class="hour" data-hour="7am">7am</div>
+            <div class="hour" data-hour="8am">8am</div>
+            <div class="hour" data-hour="9am">9am</div>
+            <div class="hour" data-hour="10am">10am</div>
+            <div class="hour" data-hour="11am">11am</div>
+            <div class="hour" data-hour="12pm">12pm</div>
+            <div class="hour" data-hour="1pm">1pm</div>
+            <div class="hour" data-hour="2pm">2pm</div>
+            <div class="hour" data-hour="3pm">3pm</div>
+            <div class="hour" data-hour="4pm">4pm</div>
+            <div class="hour" data-hour="5pm">5pm</div>
+            <div class="hour" data-hour="6pm">6pm</div>
+            <div class="hour" data-hour="7pm">7pm</div>
+            <div class="hour" data-hour="8pm">8pm</div>
+            <div class="hour" data-hour="9pm">9pm</div>
+            <div class="hour" data-hour="10pm">10pm</div>
+            <div class="hour" data-hour="11pm">11pm</div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
